@@ -1,0 +1,435 @@
+div.first_page {
+  background: linear-gradient(to bottom, yellow, white);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+span#vf {
+  display: inline-flex;       /* Делает контейнер строчным, но позволяет центрировать текст */
+  align-items: center;        /* Центрирование по вертикали */
+  justify-content: center;    /* Центрирование по горизонтали */
+    
+  width: 50px;                /* Ширина квадрата */
+  height: 50px;               /* Высота квадрата (равна ширине) */
+    
+  border: 2px solid #000;
+  border-radius: 10px;     /* Рамка: толщина, стиль, цвет */
+  background-color: black;  /* Цвет фона (по желанию) */
+  font-weight: bold;          /* Жирный текст (по желанию) */
+  padding: 5px;   
+  
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span#vintage {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+div.vintagefood1 {
+  margin-left: 5em;
+  padding-top: 100px;
+}
+
+
+div.vintagefood2 {
+  margin-left: 40em;
+  margin-top: -6em;
+}
+
+div.vintagefood2 a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+}
+
+a#slink {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+div.image_bucket {
+  margin-left: 75em;
+  margin-top: -4em;
+}
+
+
+div.vintagefood3 {
+  position: absolute;
+  bottom: 14em; /* 10px от нижнего края */
+  right: 48em;
+}
+
+div.vintagefood3 h1#order1 {
+  font-size: 40px;
+}
+
+div.vintagefood3 span#order2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+div.vintagefood3 button#button1 {
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  border: none;
+  color: white;
+  background-color: red;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+div.vintagefood3 button#button1:hover {
+  color: black;
+  background-color: yellow;
+}
+
+
+div.vintagefood4 {
+  margin-left: 40em;
+  margin-top: -5em;
+}
+
+div.right_bottom {
+  background: linear-gradient(to bottom, yellow, white);
+}
+
+
+
+div.second_page {
+  background-color: white;
+}
+
+
+div.Menu h1#menu {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+div.b_1 h2#burgers {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 130px;
+}
+
+div.b_1 img.im_1 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block; /* Контейнер по размеру картинки */
+}
+div.b_1 img.im_1:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+
+div.b_2 {
+  text-align: center;
+  margin-top: -385px;
+}
+
+div.b_2 h2#chicken {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div.b_2 img.im_2 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block;
+}
+div.b_2 img.im_2:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+
+div.b_3 {
+  text-align: right;
+  margin-top: -385px;
+}
+
+div.b_3 img.im_3 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block;
+}
+div.b_3 img.im_3:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+div.b_3 h2#hot_food {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 70px;
+}
+
+
+div.b_4 h2#snacks {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 130px;
+}
+
+div.b_4 img.im_4 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block;
+}
+div.b_4 img.im_4:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+
+div.b_5 {
+  text-align: center;
+  margin-top: -385px;
+}
+
+div.b_5 img.im_5 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block;
+}
+div.b_5 img.im_5:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+div.b_5 h2#salads {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+div.b_6 {
+  text-align: right;
+  margin-top: -385px;
+}
+
+div.b_6 img.im_6 {
+  display: block;
+  border: 5px solid transparent; /* Исходная прозрачная рамка */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden; /* Чтобы увеличенная картинка не вылезала за границы */
+  display: inline-block;
+}
+div.b_6 img.im_6:hover {
+  transform: scale(1.1); /* Увеличение на 20% */
+}
+
+div.b_6 h2#deserts {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 130px;
+}
+
+
+
+div.third_page {
+  background: linear-gradient(to bottom, white, yellow);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+div.links {
+  text-align: center;
+}
+div.links a {
+  padding: 0 2em;
+}
+
+div.links a#l1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+div.links a#l1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
+div.links a#l1:hover::after {
+  animation: shine 0.8s forwards;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+div.links a#l2 {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+div.links a#l2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
+div.links a#l2:hover::after {
+  animation: shine 0.8s forwards;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+div.links a#l3 {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+div.links a#l3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
+div.links a#l3:hover::after {
+  animation: shine 0.8s forwards;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+
+div.company_logo {
+  text-align: center;
+}
+
+div.company_logo a#ovf {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+div.company_logo a#ovf::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
+div.company_logo a#ovf:hover::after {
+  animation: shine 0.8s forwards;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+
+div.lst_page {
+  text-align: center;
+}
+
+div.lst_page a#lstp {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+div.lst_page a#lstp::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
+div.lst_page a#lstp:hover::after {
+  animation: shine 0.8s forwards;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+
+div.circles {
+  text-align: center;
+}
